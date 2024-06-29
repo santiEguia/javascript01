@@ -61,7 +61,7 @@ function musica() {
 function geografia() {
     alert("Geografía")
     let contador = 0;
-    let pregunta1 = prompt("¿Cuál es la capital de España? \n a) Barcelona \n b) Madrid \n c) Sevilla").toLowerCase;
+    let pregunta1 = prompt("¿Cuál es la capital de España? \n a) Barcelona \n b) Madrid \n c) Sevilla").toLowerCase();
 
     if (pregunta1 === "b") {
         contador++;
