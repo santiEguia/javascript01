@@ -86,7 +86,7 @@ function geografia() {
 
 
 function inicioJuego() {
-    let tipoDePreguntas = prompt("Elegi el la opcion que mas te convenga(1, 2 o 3): \n 1 = Cultura General. \n 2 = Música. \n 3 = Geografía. ");
+    let tipoDePreguntas = prompt("Selecciona una categoria (1, 2 o 3): \n 1 = Cultura General. \n 2 = Música. \n 3 = Geografía. ");
     if (tipoDePreguntas == 1) {
         culturaGeneral();
 
